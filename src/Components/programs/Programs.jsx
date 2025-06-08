@@ -6,7 +6,7 @@ import program_icon_1 from '../../assets/program-icon-1.png'
 import program_icon_2 from '../../assets/program-icon-2.png'
 import program_icon_3 from '../../assets/program-icon-3.png'
 
-const programs = () => {
+const Programs = () => {
   return (
     <div className='programs'>
         <div className="program">
@@ -35,4 +35,4 @@ const programs = () => {
   )
 }
 
-export default programs
+export default Programs
