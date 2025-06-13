@@ -20,7 +20,7 @@ const App = () => {
       <Hero/>
       <div className="container">
         <Title subTitle='Our PROGRAM' title='What we offre'/>
-        <Programs/>
+        {/* <Programs/> */}
         <About setPlayState={setPlayState}/>
         <Title subTitle='Gallery' title='Campus Photos'/>
         <Campus/>
