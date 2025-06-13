@@ -1,16 +1,17 @@
 import { useState } from 'react'
-import About from './Components/About/About.jsx'
-import Campus from './Components/Campus/Campus.jsx'
-import Contact from './Components/Contact/Contact.jsx'
-import Footer from './Components/Footer/Footer.jsx'
-import Hero from './Components/Hero/Hero.jsx'
-import Navbar from './Components/Navbar/Navbar.jsx'
-// import Programs from './Components/Programs/Programs.jsx'
-import Testimonials from './Components/Testimonials/Testimonials.jsx'
-import Title from './Components/Title/Title.jsx'
-import VideoPlayer from './Components/VideoPlayer/VideoPlayer.jsx'
+import About from './Components/About/About'
+import Campus from './Components/Campus/Campus'
+import Contact from './Components/Contact/Contact'
+import Footer from './Components/Footer/Footer'
+import Hero from './Components/Hero/Hero'
+import Navbar from './Components/Navbar/Navbar'
+import Programs from './Components/Programs/Programs'
+import Testimonials from './Components/Testimonials/Testimonials'
+import Title from './Components/Title/Title'
+import VideoPlayer from './Components/VideoPlayer/VideoPlayer'
 
 const App = () => {
+
 
   const[playState, setPlayState] = useState(false);
 
@@ -20,7 +21,7 @@ const App = () => {
       <Hero/>
       <div className="container">
         <Title subTitle='Our PROGRAM' title='What we offre'/>
-        {/* <Programs/> */}
+        <Programs/>
         <About setPlayState={setPlayState}/>
         <Title subTitle='Gallery' title='Campus Photos'/>
         <Campus/>
