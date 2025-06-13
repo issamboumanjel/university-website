@@ -5,7 +5,7 @@ import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer'
 import Hero from './Components/Hero/Hero'
 import Navbar from './Components/Navbar/Navbar'
-import Programs from './Components/Programs/Programs'
+import Programs from './Components/programs/Programs';
 import Testimonials from './Components/Testimonials/Testimonials'
 import Title from './Components/Title/Title'
 import VideoPlayer from './Components/VideoPlayer/VideoPlayer'
