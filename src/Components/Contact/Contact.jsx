@@ -45,7 +45,7 @@ const Contact = () => {
         <ul>
             <li><img src={mail_icon} alt="" /> issamboumanjel@gmail.com </li>
             <li><img src={phone_icon} alt="" />+212 640298482  </li>
-            <li><img src={location_icon} alt="" />N 33  hay lakhmaisse EL kolea ait melloul, Agadir  </li>
+            <li><img src={location_icon} alt="" />N 33  AGADIR, AIT MELLOUL, MOROCCO  </li>
         </ul>
       </div>
       <div className="contact-col">
@@ -66,4 +66,3 @@ const Contact = () => {
 
 export default Contact
 
-// YALLAH SALIT FORM SUBMIT W DB ANBDA F COMPONENET JDID D9I9A 2:08

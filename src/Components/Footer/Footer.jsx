@@ -13,4 +13,3 @@ const Footer = () => {
 
 export default Footer
 
-// W9EFT FD9I9A 2:12 NDIR SCROLL 
